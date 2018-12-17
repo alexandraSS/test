@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ПромКирпич</title>
+	<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="packages/jasny-bootstrap/css/jasny-bootstrap.min.css">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="container-fluid">
+	<header>
+		<div class="row searchAndContactWrap">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-3 hidden-sm hidden-xs searchBlock ">
+					<input type="text" class="searchField" placeholder="Введите слово" required>
+					<div><span class="glyphicon glyphicon-search searchIcon" aria-hidden="true"></span></div>
+				</div>
+				<!--for mobile only-->
+				<div class="col-sm-5 col-xs-5 visible-sm visible-xs mobileIconsBlock">
+					<div><span class="glyphicon glyphicon-search searchIcon" aria-hidden="true"></span></div>
+					<div>
+						<a href="mailto:info@citrus-soft.ru">
+							<span class="glyphicon glyphicon glyphicon-envelope emailIcon" aria-hidden="true"></span>
+						</a>
+					</div>
+					<div>
+						<span class="glyphicon glyphicon glyphicon-earphone phoneIcon" aria-hidden="true"></span>
+					</div>
+				</div>
+				<!--end for mobile only-->
+
+				<div class="col-md-offset-2 col-md-7 hidden-sm hidden-xs contactBlock">
+					<div class="phoneBlock">+7(8362) <span>38-10-80</span></div>
+					<div class="callRequestBlock">
+						<span class="glyphicon glyphicon glyphicon-earphone" aria-hidden="true"></span> <span
+						class="text">Заказать звонок</span>
+					</div>
+					<div class="emailBlock">
+						<a href="mailto:info@citrus-soft.ru">
+							<span class="glyphicon glyphicon glyphicon-envelope" aria-hidden="true"></span> info@citrus-soft.ru
+						</a>
+					</div>
+				</div>
+				<!--for mobile only-->
+				<div class="col-sm-7 col-xs-7 visible-sm visible-xs mobilePhoneBlock">
+					<a href="tel:+78362381080">+7(8362) <span>38-10-80</span></a>
+				</div>
+				<!--end for mobile only-->
+				</div>
+			</div>
+		</div>
+		<!--end searchAndContactWrap-->
+
+		<div class="row logoAndMenuWrap">
+			<div class="container">
+				<div class="row">
+					<nav class="navbar navbar-default navStyle">
+						<div class="container-fluid container-fluid-nav">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand logoWrap" href="#">
+									<img src="images/logo1.png" alt="">
+								</a>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse menuWrap">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="#" class="active">Главная</a></li>
+									<li><a href="#">Компания</a></li>
+									<li><a href="#">Продукция</a></li>
+									<li><a href="#">Услуги</a></li>
+									<li><a href="#">Наши работы</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+
+					<!--menu for mobile-->
+					<nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas menuForMobile hidden-lg" role="navigation">
+						<ul class="nav navmenu-nav">
+							<li><a href="#">Главная</a></li>
+
+							<li class="dropdown dropdownWrap">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Компания <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+								<ul class="dropdown-menu dropdownMenu">
+									<li><a href="#">Lorem</a></li>
+									<li><a href="#">Lorem ipsum</a></li>
+									<li><a href="#">Lorem</a></li>
+								</ul>
+							</li>
+							<li class="dropdown dropdownWrap">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Продукция <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+								<ul class="dropdown-menu dropdownMenu">
+									<li><a href="#">Lorem</a></li>
+									<li><a href="#">Lorem ipsum</a></li>
+									<li><a href="#">Lorem</a></li>
+								</ul>
+							</li>
+							<li class="dropdown dropdownWrap">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Услуги <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+								<ul class="dropdown-menu dropdownMenu">
+									<li><a href="#">Строительство домов<br>из&nbsp;кирпича</a></li>
+									<li><a href="#">Кровельные работы</a></li>
+									<li><a href="#">Электромонтажные<br>работы</a></li>
+									<li><a href="#">Фасадные работы</a></li>
+								</ul>
+							</li>
+
+
+							<li><a href="#">Прайс-лист</a></li>
+							<li><a href="#">Наши работы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<!--end menu for mobile-->
+
+				</div>
+			</div>
+		</div>
+		<!--end logoAndMenuWrap-->
+
+	</header>
+
+	<div class="row sliderRow">
+		<div id="carousel-example-generic" class="carousel slide topSlider" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators hidden-xs hidden-sm">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active topSliderItem">
+					<!--<img src="images/slider.jpg" alt="...">-->
+					<div class="container">
+						<div class="carouselTextBlock">
+							<div class="textTitle">
+								<h2>Производство кирпичей</h2>
+							</div>
+							<div class="text">
+								&laquo;А&nbsp;можно&nbsp;ли вообще увидеть Кирпичи?&raquo;&nbsp;&mdash; спросите&nbsp;вы. Я&nbsp;знал, что вы&nbsp;спросите. Обязательно спросите. Было&nbsp;бы странно, если&nbsp;бы не&nbsp;спросили.
+								<a href="#" class="goTo">Перейти в&nbsp;каталог</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="item topSliderItem">-->
+					<!--&lt;!&ndash;<img src="images/slider.jpg" alt="...">&ndash;&gt;-->
+					<!--<div class="container">-->
+						<!--<div class="carouselTextBlock">-->
+							<!--<div class="textTitle">-->
+								<!--<h2>Производство кирпичей</h2>-->
+							<!--</div>-->
+							<!--<div class="text">-->
+								<!--&laquo;А&nbsp;можно&nbsp;ли вообще увидеть Кирпичи?&raquo;&nbsp;&mdash; спросите&nbsp;вы. Я&nbsp;знал, что вы&nbsp;спросите. Обязательно спросите. Было&nbsp;бы странно, если&nbsp;бы не&nbsp;спросили.-->
+								<!--<a href="#" class="goTo">Перейти в&nbsp;каталог</a>-->
+							<!--</div>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+			</div>
+		</div>
+	</div>
+	<!--end sliderRow-->
+
+	<div class="row aboutWrap">
+		<div class="container">
+			<div class="aboutInside">
+				<div class="aboutTitle">
+					<h2>О&nbsp;компании</h2>
+				</div>
+				<div class="underline"></div>
+				<div class=" row">
+					<div class="aboutContent">
+						<div class="col-md-6">
+							<div class="aboutImg">
+								<!--<img src="images/about.jpg" alt="">-->
+							</div>
+						</div>
+						<div class="col-md-6 aboutText">
+							<p>
+								&laquo;А&nbsp;можно&nbsp;ли вообще увидеть Кирпичи?&raquo;&nbsp;&mdash; спросите&nbsp;вы. Я&nbsp;знал, что вы&nbsp;спросите. Обязательно спросите. Было&nbsp;бы странно, если&nbsp;бы не&nbsp;спросили. А&nbsp;раз спросили, значит у&nbsp;вас все в&nbsp;порядке. И&nbsp;это хорошо. Для нормального и&nbsp;интересного общения не&nbsp;обязательно нужно наличие Кирпичи. Большие кирпичи в&nbsp;кармане не&nbsp;утаишь. Одному человеку очень хотелось попасть в&nbsp;театр. Билет стоил 300&nbsp;рублей, а&nbsp;денег у&nbsp;человека было всего лишь 80. Подумав, человек решил заложить Кирпичи у&nbsp;ростовщика. Ростовщик внимательно осмотрел Кирипичи.</p>
+							<a href="#" class="more">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end aboutWrap-->
+
+	<div class="row newsWrap">
+		<div class="container">
+			<div class="newsInside">
+				<div class="newsTitle">
+					<h2>Новости</h2>
+				</div>
+				<div class="underline"></div>
+				<div class="row">
+					<div class="newsContent">
+						<div class="col-md-6">
+							<a href="#" class="mainNews">
+								<div class="mainNewsImg"></div>
+								<div class="mainNewsContent">
+									<div class="mainNewsDateAndTitle">
+										<div class="date">15<br><span>Дек, 2015</span></div>
+										<h4>Специальные цены<br>на&nbsp;клинкерную брусчатку</h4>
+									</div>
+									<div class="mainNewsText">
+										До&nbsp;30&nbsp;июня 2013 года специальное ценовое предложение на&nbsp;весь ассортимент клинкерной брусчатки CRH(Германия). Специальные цены будут предоставляться независимо...
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="#" class="otherNews otherNews1">
+								<div class="otherNewsImg"></div>
+								<div class="otherNewsContent">
+									<div class="otherNewsDateAndTitle">
+										<div class="date">10<br><span>Сент, 2015</span></div>
+										<h4>Готовые проектные решения коттеджей</h4>
+									</div>
+									<div class="otherNewsText">
+										Строительная компания &laquo;Навигатор&raquo; рада предложить Вашему вниманию...
+									</div>
+								</div>
+							</a>
+
+							<a href="#" class="otherNews otherNews2">
+								<div class="otherNewsImg"></div>
+								<div class="otherNewsContent">
+									<div class="otherNewsDateAndTitle">
+										<div class="date">21<br><span>Сент, 2015</span></div>
+										<h4>Приглашаем на&nbsp;выставку &laquo;Красивые дома&raquo;</h4>
+									</div>
+									<div class="otherNewsText">
+										Предлагаем посетить III Международную архитектурно-строительную и&nbsp;интерьерную выставку <span>&laquo;Красивые дома. Российский архитектурный салон.&raquo;</span>...
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="moreNews">Смотреть все новости</a>
+			</div>
+		</div>
+	</div>
+	<!--end newsWrap-->
+
+	<footer>
+		<div class="row footerWrap">
+			<div class="container">
+				<div class="footerInside">
+					<div class="footerMenuWrap">
+						<ul class="nav footerMenu">
+							<li><a href="#" class="active">Главная</a></li>
+							<li><a href="#">Компания</a></li>
+							<li><a href="#">Продукция</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Наши работы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="additionalInfoWrap">
+						ООО &laquo;Пром Кирипич&raquo;, 2013-2016<br>Дизайн и&nbsp;разработка: <a href="#">www.citrus.soft.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="scrollUp">
+	<a href="#">
+		<span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+	</a>
+</div>
+
+
+<script src="packages/jquery/jquery_3.3.1.js"></script>
+<script src="packages/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="packages/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
