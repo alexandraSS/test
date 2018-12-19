@@ -18,7 +18,6 @@ $(document).ready(function() {
 	});
 
 	// scroll Up
-
 	$('.scrollUp').hide();
 
 	$(window).scroll(function () {
@@ -32,21 +31,4 @@ $(document).ready(function() {
 		$("html, body").animate({scrollTop: 0}, 1000);
 		return false;
 	});
-
-
-	/////
-	$('#myNavmenu  ul li').hover(
-		function () {
-			$('ul', this).stop().slideDown(400);
-		},
-		function () {
-			$('ul', this).stop().slideUp(400);
-		}
-	);
-
-
-
-
-
-
 });
